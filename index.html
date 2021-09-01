@@ -35,7 +35,7 @@
                     </ul>
                 </nav>
                 <a href="/cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-                
+
                 <img src="images/menu.png" class="menu-icons" onclick="menutoggle()">
             </div>
         </div>
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-4">
                 <a href="/products-detail.html"><img src="images/product-1.jpg" alt=""></a>
-                
+
                 <h4>Red Printed T-Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -381,14 +381,12 @@
         var menuitems = document.getElementById("menuitems");
         menuitems.style.maxHeight = "0px";
 
-        function menutoggle(){
-            if(menuitems.style.maxHeight == "0px") {
+        function menutoggle() {
+            if (menuitems.style.maxHeight == "0px") {
 
                 menuitems.style.maxHeight = "200px";
 
-            }
-
-            else {
+            } else {
                 menuitems.style.maxHeight = "0px";
             }
         }
